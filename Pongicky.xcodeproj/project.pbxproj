@@ -8,26 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		7916D6A9213D893900144067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916D6A8213D893900144067 /* AppDelegate.swift */; };
-		7916D6AB213D893900144067 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7916D6AA213D893900144067 /* GameScene.sks */; };
-		7916D6AD213D893900144067 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7916D6AC213D893900144067 /* Actions.sks */; };
 		7916D6AF213D893900144067 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916D6AE213D893900144067 /* GameScene.swift */; };
 		7916D6B1213D893900144067 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916D6B0213D893900144067 /* GameViewController.swift */; };
 		7916D6B4213D893900144067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7916D6B2213D893900144067 /* Main.storyboard */; };
 		7916D6B6213D893A00144067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7916D6B5213D893A00144067 /* Assets.xcassets */; };
 		7916D6B9213D893A00144067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7916D6B7213D893A00144067 /* LaunchScreen.storyboard */; };
+		79884D63213FD1F800C3B01E /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 79884D62213FD1F800C3B01E /* Sounds */; };
+		79884D65213FE49A00C3B01E /* EnemyExplosionParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79884D64213FE49A00C3B01E /* EnemyExplosionParticle.sks */; };
+		79DD9DAD213E81DE00E7FA58 /* BallTouchParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 79DD9DAC213E81DE00E7FA58 /* BallTouchParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7916D6A5213D893900144067 /* Pongicky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pongicky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7916D6A8213D893900144067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7916D6AA213D893900144067 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		7916D6AC213D893900144067 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		7916D6AE213D893900144067 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		7916D6B0213D893900144067 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		7916D6B3213D893900144067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7916D6B5213D893A00144067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7916D6B8213D893A00144067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7916D6BA213D893A00144067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79884D62213FD1F800C3B01E /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		79884D64213FE49A00C3B01E /* EnemyExplosionParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EnemyExplosionParticle.sks; sourceTree = "<group>"; };
+		79DD9DAC213E81DE00E7FA58 /* BallTouchParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallTouchParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +62,16 @@
 		7916D6A7213D893900144067 /* Pongicky */ = {
 			isa = PBXGroup;
 			children = (
-				7916D6A8213D893900144067 /* AppDelegate.swift */,
-				7916D6AA213D893900144067 /* GameScene.sks */,
-				7916D6AC213D893900144067 /* Actions.sks */,
+				79884D62213FD1F800C3B01E /* Sounds */,
+				7916D6B5213D893A00144067 /* Assets.xcassets */,
 				7916D6AE213D893900144067 /* GameScene.swift */,
 				7916D6B0213D893900144067 /* GameViewController.swift */,
 				7916D6B2213D893900144067 /* Main.storyboard */,
-				7916D6B5213D893A00144067 /* Assets.xcassets */,
 				7916D6B7213D893A00144067 /* LaunchScreen.storyboard */,
+				7916D6A8213D893900144067 /* AppDelegate.swift */,
 				7916D6BA213D893A00144067 /* Info.plist */,
+				79DD9DAC213E81DE00E7FA58 /* BallTouchParticle.sks */,
+				79884D64213FE49A00C3B01E /* EnemyExplosionParticle.sks */,
 			);
 			path = Pongicky;
 			sourceTree = "<group>";
@@ -131,11 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79884D65213FE49A00C3B01E /* EnemyExplosionParticle.sks in Resources */,
+				79884D63213FD1F800C3B01E /* Sounds in Resources */,
 				7916D6B4213D893900144067 /* Main.storyboard in Resources */,
-				7916D6AB213D893900144067 /* GameScene.sks in Resources */,
 				7916D6B6213D893A00144067 /* Assets.xcassets in Resources */,
+				79DD9DAD213E81DE00E7FA58 /* BallTouchParticle.sks in Resources */,
 				7916D6B9213D893A00144067 /* LaunchScreen.storyboard in Resources */,
-				7916D6AD213D893900144067 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aluxian.Pongicky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aluxian.Pongicky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
